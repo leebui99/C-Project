@@ -1,0 +1,16 @@
+﻿Build started 1/22/2016 11:19:30 AM.
+     1>Project "C:\A-Youtube\C++\LOB\LOB\LOB.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt LOB.cpp
+         LOB.cpp
+     1>c:\a-youtube\c++\lob\lob\lob.cpp(508): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+     1>c:\a-youtube\c++\lob\lob\lob.cpp(547): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+       Link:
+         C:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\A-Youtube\C++\LOB\Debug\LOB.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\A-Youtube\C++\LOB\Debug\LOB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\A-Youtube\C++\LOB\Debug\LOB.lib" /MACHINE:X86 Debug\LOB.obj
+         LOB.vcxproj -> C:\A-Youtube\C++\LOB\Debug\LOB.exe
+     1>Done Building Project "C:\A-Youtube\C++\LOB\LOB\LOB.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31
